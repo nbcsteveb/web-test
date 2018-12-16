@@ -10,7 +10,8 @@
     $database = new Medoo([
         'database_type' => 'mysql',
         'database_name' => getenv('DATABASE_NAME'),
-        'server' => getenv('DATABASE_ENDPOINT'),
+        'server' => getenv('DATABASE_ADDRESS'),
+        'port' => getenv('DATABASE_PORT'),
         'username' => getenv('DATABASE_USERNAME'),
         'password' => getenv('DATABASE_PASSWORD')
     ]);
