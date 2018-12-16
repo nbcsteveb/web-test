@@ -26,7 +26,7 @@
         'user_name',
         'email'
     ], [
-        'user_id' => 50
+        'user_name' => 'foo'
     ]);
 
     echo json_encode($data);
