@@ -1,5 +1,5 @@
 <?php
-    $version = '0.0.1';
+    $version = '0.0.2';
     $hostname = gethostname();
     $ip = $_SERVER['REMOTE_ADDR'];
     $current_time = date('m/d/Y H:i:s e');
